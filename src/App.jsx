@@ -1,7 +1,6 @@
 import { RouterProvider, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
-import {router} from "./router/index.jsx"
-import Navbar from './components/Navbar.jsx'; 
+import {router} from "./router/index.jsx" 
 
 function App() {
   const [count, setCount] = useState(0);
